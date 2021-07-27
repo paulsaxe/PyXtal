@@ -59,9 +59,9 @@ Among them, ``pyxtal_test.py`` is mainly used for the internal test. In the foll
    
 PyXtal_symmetry utility
 ------------------------
-``PyXtal_symmetry.py`` is a utility to handle the generation of moelcular crystals.
+``PyXtal_symmetry.py`` is a utility to handle the generation of molecular crystals.
 
-- `-d`, the dimension, e.g., ``3``, ``2``, ``1``, ``0``. The defult is ``3``.
+- `-d`, the dimension, e.g., ``3``, ``2``, ``1``, ``0``. The default is ``3``.
 - `-s`: the target symmetry (*space*, *layer*, *rod*, *point* group information), either by *string* (e.g., ``Ih``, ``Pbca``) and *integer* (``61``).
 
 ::
@@ -155,7 +155,7 @@ if the ``-s`` tag is not given, it will output the list of all possible symmetry
 PyXtal_main utility
 --------------------
 ``PyXtal_main.py`` is a utility to handle the generation of atomic crystals.
-Typically, four arguments are requried to describe the target structure:
+Typically, four arguments are required to describe the target structure:
 
 - `-d`, the dimension, e.g., ``3``, ``2``, ``1``, ``0``.
 - `-s`: the target symmetry (*space*, *layer*, *rod*, *point* group information), either by *string* (e.g., ``Ih``, ``Pbca``) and *integer* (``61``).
