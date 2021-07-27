@@ -250,7 +250,7 @@ Below is an example to generate of random crystal for a famous drug molecule ROY
 Molecular crystals occupying special Wyckoff positions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 An import feature of PyXtal is that the program can automatically generate molecular crystals occupying special Wyckoff positions. 
-This is very useful for molecules with high internal symmetry. During crystallization, these molecule can occupy some special Wyckoff positions as long as the site symmetry is compatible with the molecular symmetry. For instance, the space group ``Cmc_21`` has 4 symmetry operations (``mm2``) in its primitive cell. However, we can still generate a structure with 2 moleulces for C60 by placing them to the special Wycoff position. This will be automatically processed by our `internal algorithm <Algorithm.html#finding-valid-molecular-orientations>`_.
+This is very useful for molecules with high internal symmetry. During crystallization, these molecules can occupy some special Wyckoff positions as long as the site symmetry is compatible with the molecular symmetry. For instance, the space group ``Cmc_21`` has 4 symmetry operations (``mm2``) in its primitive cell. However, we can still generate a structure with 2 molecules for C60 by placing them to the special Wycoff position. This will be automatically processed by our `internal algorithm <Algorithm.html#finding-valid-molecular-orientations>`_.
 
 ::
 
