@@ -254,7 +254,7 @@ This is very useful for molecules with high internal symmetry. During crystalliz
 
 ::
 
-    $ pyxtal_main.py -m -e C60 -n 2 -s 36
+    $ pyxtal_main.py -m -e C60 -n 4 -s 36
 
 
 .. image:: ../images/C60-x.png
